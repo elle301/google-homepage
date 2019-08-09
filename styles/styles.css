@@ -1,0 +1,191 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  margin: 0px auto;
+}
+
+header {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  display: flex;
+}
+
+ul li {
+  list-style: none;
+  display: inline;
+  font-size: 13px;
+  padding: 5px;
+  
+}
+
+ul a {
+  text-decoration: none; 
+  color: #383838;
+}
+
+ul a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+.opaque {
+  opacity: 0.6;
+}
+
+.opaque:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.flex-parent {
+  display: flex;
+  align-items: center;
+}
+
+section {
+  position: relative;
+}
+
+.midsection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 30%;
+  margin: 0px auto;
+  text-align: center;
+  width: 100%;
+}
+
+.search {
+  width: 100%;
+}
+
+input.searchbar {
+  width: 40%;
+  border: 1px solid #dfe1e5;
+  border-radius: 25px;
+  padding: 15px;
+  margin-top: 20px; 
+  margin-bottom: 15px;
+ }
+
+.mic {
+  position: absolute;
+  top: 43%;
+  right: 30%;
+}
+
+input.searchbar:hover {
+  -webkit-box-shadow: 0px 0px 2px 2px rgba(218,218,219,0.77);
+  -moz-box-shadow: 0px 0px 2px 2px rgba(218,218,219,0.77);
+  box-shadow: 0px 0px 2px 2px rgba(218,218,219,0.77);
+}
+
+.buttons {
+  padding: 12px;
+  color: #222222;
+  border: none;
+  border-radius: 3px;
+  background-color: F2F2F2;
+  font-size: 14px;
+}
+
+.one {
+  margin-right: 5px;
+  width: 130px;
+}
+
+.two {
+  margin-left: 5px;
+  widht: 130px;
+}
+
+.buttons:hover {
+  border: 1px solid #f1f1f1;
+  -webkit-box-shadow: 0px 0px 3px 1px rgba(218,218,219,1);
+-moz-box-shadow: 0px 0px 3px 1px rgba(218,218,219,1);
+box-shadow: 0px 0px 3px 1px rgba(218,218,219,1);
+  cursor: pointer;
+}
+
+.under-bar {
+  padding-top: 10px;
+  font-size: 13px;
+}
+
+p>span {
+  color: #1a0dab;
+}
+
+p>span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+div.foot-wrap {
+  max-width: 1000px;
+}
+
+footer {
+  position: relative;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.foot1, .foot2 {
+  position: fixed;
+  bottom: 0;
+  border: 1px solid lightgrey;
+  width: 100%;
+  background-color: #F1F1F1;
+  width: 100%;
+}
+
+.foot1 {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 35px;
+}
+
+p {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 15px;
+  
+}
+
+.foot2 {
+  padding-left: 15px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+#f2r {
+  position: fixed;
+  right: 0;
+  padding-right: 30px;
+}
+
+span>a {
+  color: #5F6368;
+  text-decoration: none;
+  font-size: 13px;
+  padding: 15px;
+  letter-spacing: .25px;
+}
+
+span>a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

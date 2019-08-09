@@ -1,0 +1,1 @@
+I used a combination of HTML and CSS to create this copy of the Google Homepage. My goal is to eventually make it more interactive with JavaScript.
